@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>381</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actWidgetInsite"/>
+   <addaction name="actWidget"/>
+   <addaction name="separator"/>
+   <addaction name="actWindowInsite"/>
+   <addaction name="actWindow"/>
+   <addaction name="separator"/>
+   <addaction name="actQuit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actWidgetInsite">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/image/actWidgetInsite.PNG</normaloff>:/image/image/actWidgetInsite.PNG</iconset>
+   </property>
+   <property name="text">
+    <string>嵌入式Widget</string>
+   </property>
+   <property name="toolTip">
+    <string>嵌入式Widget</string>
+   </property>
+  </action>
+  <action name="actWidget">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/image/actWidget.PNG</normaloff>:/image/image/actWidget.PNG</iconset>
+   </property>
+   <property name="text">
+    <string>独立Widget窗口</string>
+   </property>
+   <property name="toolTip">
+    <string>独立Widget窗口</string>
+   </property>
+  </action>
+  <action name="actWindowInsite">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/image/actWindowInsite.PNG</normaloff>:/image/image/actWindowInsite.PNG</iconset>
+   </property>
+   <property name="text">
+    <string>嵌入式MainWindow</string>
+   </property>
+   <property name="toolTip">
+    <string>嵌入式MainWindow</string>
+   </property>
+  </action>
+  <action name="actWindow">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/image/actWindow.PNG</normaloff>:/image/image/actWindow.PNG</iconset>
+   </property>
+   <property name="text">
+    <string>独立MainWindow窗口</string>
+   </property>
+   <property name="toolTip">
+    <string>独立MainWindow窗口</string>
+   </property>
+  </action>
+  <action name="actQuit">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/image/close.PNG</normaloff>:/image/image/close.PNG</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="toolTip">
+    <string>退出</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

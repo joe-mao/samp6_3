@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>image/back.jpg</file>
+        <file>image/close.PNG</file>
+        <file>image/copy.PNG</file>
+        <file>image/cut.PNG</file>
+        <file>image/font.PNG</file>
+        <file>image/open.PNG</file>
+        <file>image/paste.PNG</file>
+        <file>image/redo.PNG</file>
+        <file>image/undo.PNG</file>
+        <file>image/actWidget.PNG</file>
+        <file>image/actWidgetInsite.PNG</file>
+        <file>image/actWindow.PNG</file>
+        <file>image/actWindowInsite.PNG</file>
+        <file>image/actTab.PNG</file>
+        <file>image/actTab_Locate.PNG</file>
+        <file>image/actTab_SetHeader.PNG</file>
+    </qresource>
+</RCC>
